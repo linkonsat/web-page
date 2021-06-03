@@ -16,8 +16,8 @@ justify-content: space-between;
 align-items: center;
 }
  .searchbar {
+
     display: flex;
-    flex-direction: row;
     height: 70px;
 }
 
@@ -41,33 +41,36 @@ align-items: center;
     margin-left: 15px;
 }
 .search-button{
-    margin-left: 32%;
-    margin-top: 0%;
+
     margin-right: 10%;
-    width: 400px;
+    width: 500px;
     height: 50px;
     border-radius: 25px;
     padding: 0px;
     border-width: thin;
     border-color: transparent;
+    margin: 0%;
 
   
 }
 .google-button{
+    
     margin-left: 43%;
     font-family: arial,sans-serif;
-    border: #ffffff;
-    background-color:#ffffff;
-    background: transparent;    
+    border: 1px solid #ffffff;
+    background-color:#f8f9fa;
+    background: transparent;   
+    border-radius: 4px; 
    
     
 }
 .im-feeling-lucky {
     margin-left: 0%;
     font-family: arial,sans-serif;
-    border: #ffffff;
+    border: 1px solid #ffffff;
     height: 30px;
-    background-color:#ffffff;
+    background-color:#f8f9fa;
+    border-radius: 4px;
     
 }
 .text{
@@ -96,7 +99,10 @@ align-items: center;
 .searchicon{
         width: 20px;
         height: 20px;
-        margin-left: 20px;
+        margin-left: 35%;
+        margin-top: 10px;
+
+      
 }
 .box
 {
@@ -114,19 +120,8 @@ justify-content: space-between;
     
 
 }
-.flex-item1 {
-
-
-}
-
-.flex-item2 {
-min-width: 15%;
-}
-   
-
-
-
-.flex-item3 {
-
-
+.searchcontainer{
+    position: relative;
+    width: 600px;
+    
 }
