@@ -19,32 +19,40 @@ align-items: center;
 
     display: flex;
     height: 70px;
+    justify-content: center;
+    margin-left: 35%;
+    margin-top: 2%;
+
 }
 
 .microphone
     {
-        margin-right: 100%;
+        margin-right: 95%;
         margin-top: 1%;
-        width: 10px;
+        width: 30px;
         height: 20px;
         margin-bottom: 10%;
 
     }
 .top1 {
     margin-left: 15px;
-    padding: 10px;
+    padding-top: 18px;
+    padding-left: 10px;
 
 }
 .appsimage {
     width: 20px;
     height: 20px;
     margin-left: 15px;
+    padding-left: 15px;
+    padding-top: 20px;
+
 }
 .search-button{
 
-    margin-right: 10%;
+    margin-right:   0%;
     width: 500px;
-    height: 50px;
+    height: 30px;
     border-radius: 25px;
     padding: 0px;
     border-width: thin;
@@ -53,14 +61,24 @@ align-items: center;
 
   
 }
+.borderbutton {
+    width: 600px;
+    height: 50px;
+    margin-left: 32%;
+    background-color: #ffffff;
+    border-radius: 30px 30px 30px 30px;
+    border-width: 1px;
+    border-color: rgb(179, 175, 175);
+}
 .google-button{
     
     margin-left: 43%;
     font-family: arial,sans-serif;
     border: 1px solid #ffffff;
-    background-color:#f8f9fa;
-    background: transparent;   
+    background-color:#f0f0f0;
+    height: 30px;
     border-radius: 4px; 
+    margin-top: 30px;
    
     
 }
@@ -69,8 +87,9 @@ align-items: center;
     font-family: arial,sans-serif;
     border: 1px solid #ffffff;
     height: 30px;
-    background-color:#f8f9fa;
+    background-color:#f0f0f0;
     border-radius: 4px;
+  
     
 }
 .text{
@@ -100,7 +119,8 @@ align-items: center;
         width: 20px;
         height: 20px;
         margin-left: 35%;
-        margin-top: 10px;
+        margin-top: 3px;
+        
 
       
 }
@@ -114,6 +134,8 @@ align-items: center;
 .flex-container{
 display: flex;
 justify-content: space-between; 
+background-color: #f0f0f0;
+
 
 
  
@@ -124,4 +146,17 @@ justify-content: space-between;
     position: relative;
     width: 600px;
     
+}
+.padding {
+    margin-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 50px;
+    background-color: #f0f0f0;
+
+}
+ 
+.store {
+    margin-right: 78%;
+    margin-top: 18px;
 }
